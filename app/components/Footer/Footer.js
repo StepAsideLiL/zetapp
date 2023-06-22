@@ -13,7 +13,7 @@ import whatsapp from "../../assets/images/footer/whatsapp.svg";
 
 const Footer = () => {
   return (
-    <div className="bg-[#006eff]">
+    <div className="bg-[#006eff] h-screen">
       <div className="container max-w-5xl mx-auto ">
         <div className="pt-10 pb-5 mb-10 border-b border-white">
           <Image src={logo} alt="White logo" className="-ml-5" />

@@ -1,7 +1,9 @@
+import OurMission from "../components/About/OurMission";
+
 export default function About() {
   return (
     <main className="">
-      <div>About</div>
+      <OurMission />
     </main>
   );
 }
