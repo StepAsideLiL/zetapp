@@ -13,7 +13,7 @@ export default function Home() {
 
       <ProductsOnZet />
 
-      {/* <TheZetEffect /> */}
+      <TheZetEffect />
 
       <WhyChooseUs />
     </main>

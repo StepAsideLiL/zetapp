@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.swiper-pagination-progressbar-fill {
+  background: #fff !important;
+  border-radius: 24px;
+}
+
+.swiper-pagination-progressbar {
+  width: 50% !important;
+  border-radius: 24px;
+}
