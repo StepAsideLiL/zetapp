@@ -3,7 +3,7 @@ import bg from "../../assets/images/our-mission/OurMission.webp";
 
 const OurMission = () => {
   return (
-    <div>
+    <div className="mb-16">
       <Image src={bg} alt="Background" />
 
       <div className="absolute space-y-3 text-center text-white -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
