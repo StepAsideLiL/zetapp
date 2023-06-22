@@ -13,9 +13,11 @@ import Tilt from "react-parallax-tilt";
 const MeetTheInvestors = () => {
   return (
     <div className="container max-w-5xl mx-auto mb-28">
-      <h1 className="text-4xl font-bold text-[#2f3440] mb-10">Got Featured</h1>
+      <h1 className="text-4xl font-bold text-[#2f3440] mb-10">
+        Meet the Investors
+      </h1>
 
-      <div className="grid md:grid-cols-3 grid-cols-2 gap-5">
+      <div className="grid grid-cols-2 gap-5 md:grid-cols-3">
         <Tilt tiltAxis="y" scale={1.1}>
           <Image src={image1} alt="image1" />
         </Tilt>
