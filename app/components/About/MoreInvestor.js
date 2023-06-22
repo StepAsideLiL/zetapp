@@ -59,7 +59,7 @@ const MoreInvestor = () => {
   ];
 
   return (
-    <div className="grid max-w-5xl grid-cols-1 gap-5 mx-auto md:grid-cols-3 containter">
+    <div className="grid max-w-5xl grid-cols-1 gap-5 mx-auto md:grid-cols-3 containter mb-28">
       {ourInvestors.map((investor, index) => (
         <InvestorCard key={index} investor={investor} />
       ))}

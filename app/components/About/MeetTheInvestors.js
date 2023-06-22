@@ -12,7 +12,7 @@ import Tilt from "react-parallax-tilt";
 
 const MeetTheInvestors = () => {
   return (
-    <div className="container max-w-5xl mx-auto mb-28">
+    <div className="container max-w-5xl mx-auto mb-10">
       <h1 className="text-4xl font-bold text-[#2f3440] mb-10">
         Meet the Investors
       </h1>
